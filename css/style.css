@@ -117,6 +117,7 @@ section li {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .form-group input:focus,
@@ -157,6 +158,25 @@ section a {
 
 section a:hover {
     text-decoration: none;
+}
+
+/* 戻るリンク */
+.back-link {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.back-link a {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #2c5530;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-link a:hover {
+    background-color: #1e3d22;
 }
 
 /* フッター */
